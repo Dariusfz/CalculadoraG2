@@ -11,10 +11,10 @@ class ResultadoOperacion : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_resultado_operacion)
-        val resultado:TextView=findViewById(R.id.resultado)
+        var resultado:TextView=findViewById(R.id.resultado)
 
-        val mensaje:String=intent.extras?.getString("operacion").orEmpty()
-        resultado.text="El resultado es: $mensaje"
+        resultado.text="El resultado es: " + intent.extras?.getString("operacion").orEmpty()
+
 
 
     }

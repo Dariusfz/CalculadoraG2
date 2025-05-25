@@ -6,36 +6,35 @@ class OperacionesMatematicas() {
     fun sumar(numero1: Int, numero2: Int): Int {
 
 
-        var primerNumero: Int = numero1
-        var segundoNumero: Int = numero2
-        return primerNumero + segundoNumero
+       // var primerNumero: Int = numero1
+       // var segundoNumero: Int = numero2
+        return numero1 + numero2
 
     }
 
     //funcion para restar dos numeros y retornar el resultado
     fun restar(numero1:Int, numero2:Int):Int{
-        var primerNumero:Int=numero1
-        var segundoNumero:Int=numero2
+      //  var primerNumero:Int=numero1
+      //  var segundoNumero:Int=numero2
 
 
-        return primerNumero - segundoNumero
+        return numero1 - numero2
     }
 
     //funcion para multiplicar dos numeros y retornar el resultado
     fun multiplicar(numero1:Int, numero2:Int):Int{
-        var primerNumero:Int=numero1
-        var segundoNumero:Int=numero2
+        /*var primerNumero:Int=numero1
+        var segundoNumero:Int=numero2*/
 
 
-        return primerNumero * segundoNumero
+        return numero1 * numero2
     }
 
     //funcion para dividir dos numeros y retornar el resultado
     fun dividir(numero1:Int, numero2:Int):Int{
+          /*  var primerNumero:Int=numero1
+            var segundoNumero:Int=numero2*/
 
-
-            var primerNumero:Int=numero1
-            var segundoNumero:Int=numero2
-            return primerNumero / segundoNumero
+            return numero1 / numero2
     }
 }

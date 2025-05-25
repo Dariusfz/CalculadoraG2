@@ -18,9 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         //llamar a la vista
-
-
-
         val numero1:EditText=findViewById(R.id.numero1)
         val numero2:EditText=findViewById(R.id.numero2)
         val botonSuma:Button=findViewById(R.id.buttonSuma)
